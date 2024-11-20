@@ -33,4 +33,4 @@ crontab -e
 #for auto RUNNING script(it's up to you)
 * * * * * ./send-email-notif.sh 
 
-================================# nivaresta
+================================
