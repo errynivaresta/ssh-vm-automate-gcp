@@ -30,8 +30,11 @@ for scheduler using this
 crontab -e
 
 #for auto update csv
+
+
 0 0 * * * gcloud compute instances list --filters="status=RUNNING" --format="csv(name, zone)" > /path/datalabs-hs/config/instances_list.csv
+
+
 #for auto RUNNING script(it's up to you)
 * * * * * ./send-email-notif.sh 
 
-================================
