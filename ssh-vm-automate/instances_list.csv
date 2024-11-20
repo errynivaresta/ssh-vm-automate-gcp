@@ -1,0 +1,8 @@
+name,zone
+elastic-auto,asia-southeast2-a
+vuln-vm,asia-southeast2-a
+elk-redhat,asia-southeast2-b
+elk-rhel-9,asia-southeast2-b
+elk-test,asia-southeast2-b
+instance-20241118-020439,asia-southeast2-b
+gitlab-test-1,asia-southeast2-b
